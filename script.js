@@ -1,6 +1,6 @@
-const dataInput = document.getElementById("#dataInput");
-const saveButton = document.getElementById("#save");
-const fetchButton = document.getElementById("#load");
+const dataInput = document.querySelector("#dataInput");
+const saveButton = document.querySelector("#save");
+const fetchButton = document.querySelector("#load");
 
 
 saveButton.addEventListener("click", saveToLocalStorage);
